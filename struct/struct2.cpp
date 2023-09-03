@@ -5,7 +5,7 @@ struct my_struct{
     int x;
     double y;
     string s;
-} c;//要有分號
+} ; //要加分號！
 
 int main(){
     my_struct a;
@@ -17,6 +17,5 @@ int main(){
 
     cout<<a.x<<" "<<a.y<<" "<<a.s<<'\n';
     cout<<b.x<<" "<<b.y<<" "<<b.s<<'\n';
-    c.x = 10;
-    cout<<c.x<<'\n';
+    
 }
